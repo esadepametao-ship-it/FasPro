@@ -1,8 +1,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'core/theme/app_theme.dart';
 import 'firebase_options.dart';
-
+import 'features/auth/screens/auth_gate.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -18,20 +19,11 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      title: 'FasPro',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blue,
-        ),
-        useMaterial3: true,
-      ),
-      home: const Scaffold(
-        body: Center(
-          child: Text('FasPro'),
-        ),
-      ),
-    );
+return MaterialApp(
+  debugShowCheckedModeBanner: false,
+  title: 'FasPro',
+  theme: AppTheme.light,
+  home: const AuthGate(),
+);
   }
 }

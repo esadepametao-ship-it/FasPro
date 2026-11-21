@@ -12,7 +12,20 @@
           "package_name": "com.example.faspro"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "391758778946-v48itjlevn9ngud9gf2bjlht515b2oie.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.faspro",
+            "certificate_hash": "0c838c64576d9615a1c16565401f8379498ae39a"
+          }
+        },
+        {
+          "client_id": "391758778946-a5pgbuuegp2qveidi3tdbnpkuonkn749.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyCyhVUGvhq9_Emk71NcgQi-1NDND4GfnYM"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "391758778946-a5pgbuuegp2qveidi3tdbnpkuonkn749.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "391758778946-aieh5bb8c2gj1091ngt6pk48ddgc3ao8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.faspro"
+              }
+            }
+          ]
         }
       }
     }
